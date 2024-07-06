@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #272b30;
+}
+.header-img{
+    img{
+        max-height: 30vh;
+        object-fit: cover;
+    }   
+}
+.overimg{
+    position: absolute;
+    height: 219px;
+    background-color: #34365d4f;
+    z-index: 0;
+}
+.z-3 {
+    z-index: 3 !important;
+}
+.top-0 {
+    top: 0 !important;
+}
+.position-sticky {
+    position: sticky !important;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.navbar-brand{
+    z-index: 100;
+    color:white;
+    &:hover{
+        color: white
+    }
+}
+nav {
+    /* background-image: url(../assets/images/wp2380815.jpg);
+    background-position: 100% 100%;
+    background-repeat: repeat;
+    background-size:contain; */
+    background-color: rgb(58, 73, 123) !important;
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+
+    
+}
+.navbar{
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nerko One", cursive;
+    color: white;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.nav-item .nav-link.active, .nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+}
+.nav-link {
+    display: block;
+    font-size:14px;
+    font-weight: 400;
+    font-family: "Comic Neue", cursive;;
+    color:white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    &:hover{
+        color: rgb(0, 132, 255);
+    }
+}
+.gamesDiv{
+    margin-top: 20px;
+    background-color:  #302729;
+    width: 97%;
+    height: 350px;
+    transition: transform 0.5s, filter 0.5s 0.1s;
+    &:hover{
+        transform: scale(1.05);
+        filter: grayscale(0);
+    }
+    filter: grayscale(0.7);
+}
+.img-details{
+    width: 100%;
+    height: 90%;
+    border-top: 1px solid rgba(0, 0, 0, 0.23);
+    border-left:1px solid rgba(0, 0, 0, 0.23) ;
+    border-right:1px solid rgba(0, 0, 0, 0.23) ;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+.deatialss{
+    width: 100%;
+    height: 10%;
+    border: .5px solid rgba(0, 0, 0, 0.23);
+    border-radius: 0px 0px 5px 5px;
+}
+.gameNameCompiler{
+    width: 70px;
+    height: 17px;
+    background-color: #32383E;
+    border-radius: 7px;
+}
+.gameimg{
+    margin-inline:auto ;
+    margin-top: 15px;
+    height: 50%;
+    width: 90%;
+}
+
+.gamename{
+    color: white;
+}
+.free{
+    text-align: center;
+    color: white;
+    background-color: #09c;
+    height: fit-content;
+    width: 50px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    color: #b5b9bc;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (max-width: 990px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+@media (max-width: 457px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+.details {
+    background-color: #272729be;
+    backdrop-filter: blur(4px);
+    min-height: 100vh;
+}
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+@media (min-width: 1200px) {
+    .h3, h3 {
+        font-size: 1.75rem;
+    }
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+ 
+ /***** Global *****/
+
+ body {
+    min-height: 100%;
+    min-width: 100%;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    color:white !important;
+ }
+ 
+ ul {
+    list-style-position: inside;
+ }
+ 
+ .nav-item .nav-link.active,
+ .nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+ }
+ 
+ ::-webkit-scrollbar {
+    width: 0.625rem;
+ }
+ 
+ ::-webkit-scrollbar-track {
+    background-color: var(--seconde-color);
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+ }
+ /***** End Global *****/
+ 
+ /***** Home *****/
+ .home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+ }
+ 
+ header img {
+    max-height: 30vh;
+    object-fit: cover;
+ }
+ 
+ .home .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+ }
+ 
+ /***** Loader *****/
+ .loading {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: #272b30e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+ }
+ .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left: 4px solid #ff3d00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+ }
+ @keyframes rotation {
+    0% {
+       transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+ /***** End Loader *****/
+ 
